@@ -1,0 +1,49 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72D-47B6-A68D-7590B98EB39B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lengko.Alert.WinForms", "..\..\src\Lengko.Alert.WinForms\Lengko.Alert.WinForms.csproj", "{432240D6-F206-4EEE-8738-3A0F9CBC3296}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{5D20AA90-6969-D8BD-9DCD-8634F4692FDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lengko.Alert.Demo.CSharp", "CSharp\Lengko.Alert.Demo.CSharp.csproj", "{AD006C95-232F-428D-8648-0861EC1235C5}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Lengko.Alert.Demo.VB", "VB\Lengko.Alert.Demo.VB.vbproj", "{83490EF6-D50D-436C-A7D8-6B757716CFA5}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Lengko.Alert.Demo.FSharp", "FSharp\Lengko.Alert.Demo.FSharp.fsproj", "{9B1C28AA-7C8F-4B81-912A-1672D6D3A08E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{432240D6-F206-4EEE-8738-3A0F9CBC3296}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{432240D6-F206-4EEE-8738-3A0F9CBC3296}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{432240D6-F206-4EEE-8738-3A0F9CBC3296}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{432240D6-F206-4EEE-8738-3A0F9CBC3296}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD006C95-232F-428D-8648-0861EC1235C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD006C95-232F-428D-8648-0861EC1235C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD006C95-232F-428D-8648-0861EC1235C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD006C95-232F-428D-8648-0861EC1235C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83490EF6-D50D-436C-A7D8-6B757716CFA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83490EF6-D50D-436C-A7D8-6B757716CFA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83490EF6-D50D-436C-A7D8-6B757716CFA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83490EF6-D50D-436C-A7D8-6B757716CFA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B1C28AA-7C8F-4B81-912A-1672D6D3A08E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B1C28AA-7C8F-4B81-912A-1672D6D3A08E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B1C28AA-7C8F-4B81-912A-1672D6D3A08E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B1C28AA-7C8F-4B81-912A-1672D6D3A08E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{432240D6-F206-4EEE-8738-3A0F9CBC3296} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{AD006C95-232F-428D-8648-0861EC1235C5} = {5D20AA90-6969-D8BD-9DCD-8634F4692FDA}
+		{83490EF6-D50D-436C-A7D8-6B757716CFA5} = {5D20AA90-6969-D8BD-9DCD-8634F4692FDA}
+		{9B1C28AA-7C8F-4B81-912A-1672D6D3A08E} = {5D20AA90-6969-D8BD-9DCD-8634F4692FDA}
+	EndGlobalSection
+EndGlobal
