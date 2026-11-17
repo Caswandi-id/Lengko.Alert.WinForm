@@ -13,6 +13,7 @@ Modern, high-performance alert dialogs, modal prompts, and toast notifications f
 
 ---
 
+
 ## Projects in this Folder
 
 | Language | Project File | Description |
@@ -24,6 +25,45 @@ Modern, high-performance alert dialogs, modal prompts, and toast notifications f
 Dedicated solution: **`Lengko.Alert.WinForms.sln`** (builds all 3 demos alongside the library).
 
 ---
+---
+
+## Installation (NuGet)
+
+[![NuGet](https://img.shields.io/nuget/v/Lengko.Alert.WinForm.svg)](https://www.nuget.org/packages/Lengko.Alert.WinForm)
+[![Downloads](https://img.shields.io/nuget/dt/Lengko.Alert.WinForm.svg)](https://www.nuget.org/packages/Lengko.Alert.WinForm)
+
+Package: [Lengko.Alert.WinForm](https://www.nuget.org/packages/Lengko.Alert.WinForm) on NuGet.org.
+
+### .NET CLI
+
+```powershell
+dotnet add package Lengko.Alert.WinForm
+```
+
+### Package Manager Console (Visual Studio)
+
+```powershell
+Install-Package Lengko.Alert.WinForm
+```
+
+### PackageReference (.csproj / .vbproj / .fsproj)
+
+```xml
+<ItemGroup>
+  <PackageReference Include="Lengko.Alert.WinForm" Version="1.0.0" />
+</ItemGroup>
+```
+
+### Visual Studio GUI
+
+1. Right-click the project, then select **Manage NuGet Packages...**
+2. Open the **Browse** tab and search for `Lengko.Alert.WinForm`.
+3. Click **Install**.
+
+Supported frameworks: `net472`, `net48`, `netcoreapp3.1`, `net5.0-windows` to `net10.0-windows`.
+
+---
+
 
 ## Quick Start / How to Run
 
